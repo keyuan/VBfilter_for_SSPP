@@ -1,58 +1,123 @@
-\documentclass{article}
-\usepackage{nips10submit_e,times}
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{multirow}
+%
+\usepackage[authoryear]{natbib}
+%
+\usepackage{rotating}
+\usepackage{bbm}
+\usepackage{latexsym}
+%\DeclareGraphicsExtensions{.eps,.png}
 
-\title{Online variational inference for state-space models with point process observations}
+%%% margins
+\textheight 23.4cm
+\textwidth 14.65cm
+\oddsidemargin 0.375in
+\evensidemargin 0.375in
+\topmargin  -0.55in
+%
+\renewcommand{\baselinestretch}{1.436}
+%
+\interfootnotelinepenalty=10000
+%
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsubsection}}
+\newcommand{\myparagraph}[1]{\ \\{\em #1}.\ \ }
+\newcommand{\citealtt}[1]{\citeauthor{#1},\citeyear{#1}}
+\newcommand{\myycite}[1]{\citep{#1}}
 
-	
+% Different font in captions
+\newcommand{\captionfonts}{\normalsize}
+
+\makeatletter
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\captionfonts #1: #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother
+%%%%%
+
+\renewcommand{\thefootnote}{\normalsize \arabic{footnote}} 
+
+
 \input{./Preamble}
 \usepackage{color}
 \newcommand{\red}{\textcolor{red}}
 \newcommand{\blue}{\textcolor{blue}}
 \newcommand{\green}{\textcolor{green}}
-\bibliographystyle{IEEEtran}	
 
 
-
-\newcommand{\fix}{\marginpar{FIX}}
-\newcommand{\new}{\marginpar{NEW}}
 
 
 \begin{document}
 
-\author{
-Andrew Zammit Mangion \\
-Department of Automatic Control and Systems Engineering\\
-University of Sheffield\\
-Sheffield, U.K. \\
-\texttt{A.Zammit@sheffield.ac.uk} \\
-\And
-Ke Yuan\\
-School of Electronics and Computer Science\\
-University of Southampton\\
-Southampton, U.K.\\
-\texttt{ky08r@ecs.soton.ac.uk} \\
-\AND
-Visakan Kadirkamanathan\\
-Department of Automatic Control and Systems Engineering\\
-University of Sheffield\\
-Sheffield, U.K. \\
-\texttt{visakan@sheffield.ac.uk} \\
-\And
-Mahesan Niranjan\\
-School of Electronics and Computer Science\\
-University of Southampton\\
-Southampton, U.K.\\
-\texttt{mn@ecs.soton.ac.uk} \\
-\And
-Guido Sanguinetti\\
-School of Informatics\\
-University of Edinburgh\\
-\texttt{G.Sanguinetti@ed.ac.uk}
-}
-
-\maketitle
+%\author{
+%Andrew Zammit Mangion \\
+%Department of Automatic Control and Systems Engineering\\
+%University of Sheffield\\
+%Sheffield, U.K. \\
+%\texttt{A.Zammit@sheffield.ac.uk} \\
+%\And
+%Ke Yuan\\
+%School of Electronics and Computer Science\\
+%University of Southampton\\
+%Southampton, U.K.\\
+%\texttt{ky08r@ecs.soton.ac.uk} \\
+%\AND
+%Visakan Kadirkamanathan\\
+%Department of Automatic Control and Systems Engineering\\
+%University of Sheffield\\
+%Sheffield, U.K. \\
+%\texttt{visakan@sheffield.ac.uk} \\
+%\And
+%Mahesan Niranjan\\
+%School of Electronics and Computer Science\\
+%University of Southampton\\
+%Southampton, U.K.\\
+%\texttt{mn@ecs.soton.ac.uk} \\
+%\And
+%Guido Sanguinetti\\
+%School of Informatics\\
+%University of Edinburgh\\
+%\texttt{G.Sanguinetti@ed.ac.uk}
+%}
+%
 %\maketitle
-\begin{abstract} We present a variational Bayesian approach to state and parameter inference in
+%\maketitle
+
+\hspace{13.9cm}1
+
+\ \vspace{20mm}\\
+
+{\LARGE Online variational inference for state-space models with point process observations}
+
+\ \\
+{\bf \large Andrew Zammit Mangion$^{\displaystyle 1}$, Ke Yuan$^{\displaystyle 2}$, Visakan Kadirkamanathan$^{\displaystyle 1}$, Mahesan Niranjan$^{\displaystyle 2}$ and Guido Sanguinetti$^{\displaystyle 3}$}\\
+{$^{\displaystyle 1}$Department of Automatic Control and Systems Engineering, University of Sheffield.}\\
+{$^{\displaystyle 2}$School of Electronics and Computer Science University of Southampton.}\\
+{$^{\displaystyle 3}$School of Informatics University of Edinburgh.}
+%
+
+%\ \\[-2mm]
+{\bf Keywords:} Manuscript, journal, instructions
+
+\thispagestyle{empty}
+\markboth{}{NC instructions}
+%
+\ \vspace{-0mm}\\
+%
+%Abstract
+\begin{center} {\bf Abstract}
+
+
+We present a variational Bayesian approach to state and parameter inference in
 	state-space models with point-process observations, a physiologically plausible model for
 	signal processing of spike data. We give a derivation of the variational smoother, as well
 	as an efficient online filtering algorithm which can also be used to track the change in
@@ -60,8 +125,10 @@ University of Edinburgh\\
 	simulated data, comparing the results with EM as well as Monte Carlo estimation to evaluate
 	the accuracy of the proposed approach. We then show an application of the online filtering
 	algorithm to a real data set of taste-response neural cells, showing that the approach can
-	effectively capture dynamical changes in neural responses.  \end{abstract}
-	\section{Introduction}
+	effectively capture dynamical changes in neural responses.   \end{center}
+
+
+\section{Introduction}
 
 Many biomedical signal processing problems, such as neural spikes and  heart beats, are concerned
 with discrete events in time, separated by seemingly random intervals.  They are often driven by

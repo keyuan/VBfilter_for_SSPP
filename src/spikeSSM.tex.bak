@@ -47,7 +47,7 @@ Southampton, U.K.\\
 Guido Sanguinetti\\
 School of Informatics\\
 University of Edinburgh\\
-\texttt{G.Sanguinetti@ed.ac.uk} 
+\texttt{G.Sanguinetti@ed.ac.uk}
 }
 
 \maketitle
@@ -114,12 +114,12 @@ $c$-th channel conditioned on the latent state $x_k$ (observation model or likel
 \Re$ is additive white Gaussian noise with mean 0 and variance $\sigma^2_\epsilon \in \Re$. The
 parameters $\rho \in \Re$ and $\alpha \in \Re$ are the propagation constant and input gain
 respectively.  This model was introduced in \cite{Smith_2003} as a physiologically plausible model
-of induced neural spiking experiments (see {\em e.g.} \cite{Ergun_2007}). 
+of induced neural spiking experiments (see {\em e.g.} \cite{Ergun_2007}).
 
 In practice, both the parameters governing the firing rate $\mu$ and $\betab = \{\beta^c\}_{c=1}^C$,
 and the governing state equation parameters $\alpha$ and $\rho$ are unknown. We are hence faced with
 the problem of having to estimate a set of unknown parameters $\thetab \in \Re^d, d = c+3$ with
-$\thetab = \{\alpha,\rho,\mu,\betab\}$ in addition to an underlying hidden state $x_k$. 
+$\thetab = \{\alpha,\rho,\mu,\betab\}$ in addition to an underlying hidden state $x_k$.
 
 \subsection{The variational posteriors}
 
@@ -200,7 +200,7 @@ state estimates. The resulting equations are given as \begin{equation} x_{k|K} =
 			\exp{\mu} \rangle_{\pt(\mu)} \frac{d^2}{dx_{k+1}^2}\left.\left[\langle
 			\exp{x_{k+1}\beta^c} \rangle_{\pt(\beta^c)}\right]\right|_{x_{k+1} =
 			x_{k+1|k+1}}\right\}\right)^{-1} \label{eq:NL2b} \end{equation}
-		\end{subequations} 
+		\end{subequations}
 		
 		In (\ref{eq:NL2}) and (\ref{eq:NL2b}) we have linearised around
 		the filtered estimate to give a closed form solution. As a consequence of this the forward and backward passes need to be carried out	sequentially. On completing the backward pass one can update the initial state estimate $x_{1|1}$ and $\sigma^2_{1|1}$ in the same manner	as~\cite{Smith_2003}.
@@ -210,15 +210,15 @@ optimisation method. We can take advantage of the facts that the equation has a 
 that the prior $x_{k|k-1}$ can be used as a good initialisation for $x_{k|k}$, to solve the optimisation method
 in an efficient manner. In practice it was found that replacing the state variable on the right hand
 side by the prior (to obtain a closed form solution) gave very good results and a marked decrease in
-computational requirements. 
+computational requirements.
 
 The required statistics needed for the VB-M step are $\langle x_kx_{k+1} \rangle_{\pt(\X_K)},
 \langle x_k^2 \rangle_{\pt(\X_K)}$ and $\langle x_k \rangle_{\pt(\X_K)}$ for all time $k$. The only
 quantity which is not readily available from the above is the first of these expectations. To obtain
 this we invert the precision matrix of the pairwise marginal $p(x_k,x_{k+1}|\Y_K)$ to obtain the following expression
 
-\begin{equation} \langle x_kx_{k+1} \rangle_{\pt(\X_K)} = \langle \rho \rangle \sigma^{-2}_\epsilon\left((\sigma^{-2}_{k|k} + \langle \rho^2 \rangle \sigma^{-2}_\epsilon)\sigma^{l^{-2}} - \langle \rho \rangle^2 \sigma_\epsilon^{-4} \right)^{-1}+ x_{k+1|K}x_{k|K} 
-\end{equation} 
+\begin{equation} \langle x_kx_{k+1} \rangle_{\pt(\X_K)} = \langle \rho \rangle \sigma^{-2}_\epsilon\left((\sigma^{-2}_{k|k} + \langle \rho^2 \rangle \sigma^{-2}_\epsilon)\sigma^{l^{-2}} - \langle \rho \rangle^2 \sigma_\epsilon^{-4} \right)^{-1}+ x_{k+1|K}x_{k|K}
+\end{equation}
 \noindent where \begin{equation} \sigma^{l^{2}} = \left(\sigma^{*^{-2}}_{k+1} +
 	\sigma^{-2}_\epsilon + \sum_{c=1}^C \left\{\Delta \langle \mu \rangle \
 	\frac{d^2}{dx_{k+1}^2}\left.\left[\langle \exp{x_{k+1}\beta^c}
@@ -246,7 +246,7 @@ $\sigma^2_\mu, \sigma^2_{\beta^c}$ respectively we have that \begin{subequations
 		\exp(\beta^cx_i)\rangle_{\pt(\X_K)\pt(\beta^c)} \right) \\
 		\sigma^2_{\mu} = \left(1 / \sigma^2_{\mu_p} + \Delta\exp(\hat{\mu})\sum_{i=1}^K
 		\sum_{c=1}^C \langle \exp(\beta^cx_i)\rangle_{\pt(\X_K)\pt(\beta^c)} \right)^{-1}
-	\end{align} \end{subequations} 	\noindent where the subscript $p$ denotes \emph{prior}. 
+	\end{align} \end{subequations} 	\noindent where the subscript $p$ denotes \emph{prior}.
 
 All expectations in the above equations are standard except for $\langle
 \exp(\beta^cx_i)\rangle_{\pt(\X_K)\pt(\beta^c)}$, which can be calculated using moment generating
@@ -296,7 +296,7 @@ parameters
 	p(\yk|x_k,\thetab_k) p(x_k|x_{k-1},\thetab_k)\rangle_{\pt(\Xk)\pt(\thetab_k^{/i})})  \\
 	[2ex] ~~~~~~~~~~~~~~~~~~~~~~~~ \times~ \exp(\langle\ln
 	p(\theta^i_k|\theta^i_{k-1})\rangle_{\pt(\theta^i_{k-1})}) ~~~ i = 1 \dots d
-\end{array} \end{equation} 
+\end{array} \end{equation}
 
 
 \end{subequations}
@@ -317,7 +317,7 @@ have zero mean and slowly varying variance
 
 \begin{equation} \langle e^{i^2}_k \rangle = \lambda^{i^{-1}}\sigma^2_{\theta^{i}_{k-1}}  ~~~ i = 1 \dots d \end{equation}
 
-\noindent where the term $\lambda^i \in (0,1]$ is a user-defined forgetting factor. 
+\noindent where the term $\lambda^i \in (0,1]$ is a user-defined forgetting factor.
 
 \section{Results}
 
@@ -336,23 +336,23 @@ distributions with wide variances: $\sigma^2_{\rho_p} = 5, \sigma^2_{\alpha_p} =
 from the fact that the likelihood (\ref{spikeLike}) involves only the product $\beta^c x_k$ (a
 problem related to the observed parameter offsetting in~\cite{Smith_2003}). Graphical results for the estimation of 3 out of the 23
 unknown parameters using the VB-EM algorithm are given in Fig.\ref{fig:parVB}, showing rapid
-convergence to good estimates. 
+convergence to good estimates.
 
 
 % \begin{figure}[h!] \begin{center} %\framebox[4.0in]{$\;$} \includegraphics[width =
-% 6in]{./stateVB.eps}  
-% 
+% 6in]{./stateVB.eps}
+%
 % \end{center} \caption{True state (solid blue line) and mean estimated state (marked red line). The
 % true state lies consistently within the 99\% confidence intervals (dashed black line).}
 % \label{fig:stateVB} \end{figure}
 % 	
 
-\begin{figure}[ht] 
-\begin{center} 
-\includegraphics[width = 5.5in]{./parVB.eps} 
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width = 5.5in]{./Figures/parVB.eps}
 \caption{Mean estimates and $99\%$ confidence intervals over 100 VB-EM iterations. The
 parameters (including $\betab$ which is not shown) converge in distribution to reasonable estimates
-independent of initial conditions.} \label{fig:parVB} 
+independent of initial conditions.} \label{fig:parVB}
 \end{center}
 \end{figure}
 
@@ -365,11 +365,11 @@ carried out on an Intel\textregistered Core\texttrademark 2 Quad Q6600 @ 2.40GHZ
 	algorithm. Unless stated, $\betab$ was fixed to the true value during simulation.}
 	\label{tab:Parest} \begin{center} \begin{tabular}{c|c|c|c|c|c} $\theta$
 		&{\bf True}  	&{\bf EM} &{\bf Gibbs}  &{\bf VB-EM} &{\bf VB-EM} (free $\betab$) \\
-		\hline &&&  \\[-2ex] 
-		$\rho$ 		&	0.80	&0.82	  & 0.79 $\pm$ 0.06 & 0.79 $\pm$ 0.03	  &	0.79 $\pm$ 0.03	 \\ 
+		\hline &&&  \\[-2ex]
+		$\rho$ 		&	0.80	&0.82	  & 0.79 $\pm$ 0.06 & 0.79 $\pm$ 0.03	  &	0.79 $\pm$ 0.03	 \\
 		$\alpha$ 	&	4.00		&4.08	  & 3.81 $\pm$ 0.48	 & 4.04 $\pm$ 0.22	  &	4.07 $\pm$ 0.22   \\
-		$\mu $		&	0.00	&-0.19	& 0.06 $\pm$ 0.24	 & 0.01 $\pm$ 0.14	&	0.02$\pm$ 0.14	 \\ 
-		avr($\betab$)	&	1.00&  -	&         -		&	        -         &	0.99 $\pm$ 0.19	\\ 
+		$\mu $		&	0.00	&-0.19	& 0.06 $\pm$ 0.24	 & 0.01 $\pm$ 0.14	&	0.02$\pm$ 0.14	 \\
+		avr($\betab$)	&	1.00&  -	&         -		&	        -         &	0.99 $\pm$ 0.19	\\
 \end{tabular} \end{center}
 	\end{table}
 
@@ -402,7 +402,7 @@ error occurred by chance at the 5\% significance level.
 
 % \subsection{Online parameter tracking of a parameter from point process
 % observations}\label{sec:OLres}
-% 
+%
 % Online state estimation and parameter monitoring can be useful in several applications, for
 % instance in heart monitoring or in cases where electrical activity from spiking neurons are
 % recorded in real-time. We applied the online VB filter of Section \ref{sec:OL} to the same example
@@ -415,14 +415,14 @@ error occurred by chance at the 5\% significance level.
 % $\betab$. We hence chose to update our parameter distributions only in regions where there is
 % ample information about the relevant parameters. This was found to facilitate convergence and
 % overall performance.
-% 
+%
 % For this study we assumed $C=80$ and that $\betab$ and $\mu$ were pre-determined from a previous
 % offline analysis and assumed to be constants.  The choice of the forgetting factors was carried
 % out by trial and error such that a parameter change could be tracked without compromising
 % stability in the online estimates. We subsequently chose $\lambda^\rho = 0.8$ and $\lambda^\alpha
 % = 0.8$. The result for the successful tracking a sudden change in the true value of $\rho$ from
-% 0.8 to 0.6 is shown in Fig.~\ref{fig:oltrack}. 
-% 
+% 0.8 to 0.6 is shown in Fig.~\ref{fig:oltrack}.
+%
 % \begin{figure}[h] \begin{center} \includegraphics[width = 6in]{./onlinetrack.eps} \end{center}
 % \caption{Online tracking of sudden change in parameter the true parameter (level black line)
 % $\rho$ at time $t = 500s$. In this example $\mu$ and $\betab$ where assumed constant and known
@@ -433,13 +433,13 @@ error occurred by chance at the 5\% significance level.
 % \label{fig:oltrack} \end{figure}
 
 % \subsection{Quantitative modeling of an L5 pyramidal cell}
-% 
+%
 % Here we demonstrate the use of offline VB-EM for the inference of a single ($C$ = 1) L5 pyramidal
 % cell of a Wistrar rat, the data which was collected primarily for spike timing
 % prediction~\cite{Gerstner_2009}. Despite the nature of the input being continuous (opposed to
 % spikes) and the infrequency of the output spikes, we saw that the offline VB-EM algorithm was
 % capable of converging to a model which manages to adequately represent the underlying data.
-% 
+%
 % The state covariance $\sigma^2_\epsilon$ was set to 0.0001 and we extracted the spikes from the
 % data by detecting when a rising voltage crosses the zero threshold (as indicated in the
 % competition guidelines). We estimated distributions over $\alpha, \rho, \mu, \betab$ and $\X_K$
@@ -448,7 +448,7 @@ error occurred by chance at the 5\% significance level.
 % the Kolmogorov-Smirnov test in Fig.~\ref{fig:KSRD} indicates a relatively good agreement between
 % the actual rate described by the data and the rate given by the model. The test corroborates the
 % firing rates shown of Fig.~\ref{fig:RDFR}.
-% 
+%
 % \begin{figure}[h] \begin{center} %\framebox[4.0in]{$\;$} \subfigure[]{ \includegraphics[width =
 % 2.5in]{./Firingrate.eps}  \label{fig:RDFR}} \subfigure[]{\includegraphics[width =
 % 2.5in]{./KSRD.eps}  \label{fig:KSRD}} \caption{(a) Estimated firing rate $\lambda\Delta$ for the
@@ -456,7 +456,7 @@ error occurred by chance at the 5\% significance level.
 % Kolmogorov-Smirnov goodness-of-fit analyses for spiking rate inference of a single L5 pyramidal
 % set, comparing the VB-EM rate estimate (solid blue line) to the EM rate estimate (dashed red line)
 % and the 45 degree line indicating a perfect match between the model and the data.} \end{center}
-% 
+%
 % \end{figure}
 
 
@@ -471,22 +471,22 @@ trials where different compounds dissolved in distilled water were delivered to 
 the Human Brain Project. From the data it was evident that a cell's response varies according to the stimulus applied in many ways. In some cases, monitoring the overall background activity through the parameter $\mu$ is sufficient to discriminate between two compounds. Sometimes the discrimination can be aided by also looking at the \emph{immediate} response of the cell to the stimulus. This entails the monitoring of the input gain $\alpha$, which modulates the state response to the input and hence controls the behaviour of the immediate response to the stimulus. We consider one cell from the data set and its response to three dissolved compounds; HCl, quinine and sucrose.
 
 
-%For instance one cell's repsonse to sucrose was significantly less active overall than that to HCl, suggesting that by monitoring $\mu$ (background rate) one would be able to detect this change and hence identify the new presented compound. The overall response to quinine was slightly closer to that to HCl. However the \emph{immediate} response to quinine was much more substantial than that to HCl, suggesting a possibility 
+%For instance one cell's repsonse to sucrose was significantly less active overall than that to HCl, suggesting that by monitoring $\mu$ (background rate) one would be able to detect this change and hence identify the new presented compound. The overall response to quinine was slightly closer to that to HCl. However the \emph{immediate} response to quinine was much more substantial than that to HCl, suggesting a possibility
 
 
 \begin{figure}[h] \begin{center}
 %\framebox[4.0in]{$\;$}
 
 \subfigure[Change in $\mu$ indicating a change in stimulus
- from HCl to sucrose and back to HCl. The parameter \newline change is indicative of a change in the spike train pattern (inset) when the stimulus is changed. ]{\includegraphics[width = 5.5in]{./HSH.eps}
- \label{fig:Sucrose}} 
+ from HCl to sucrose and back to HCl. The parameter \newline change is indicative of a change in the spike train pattern (inset) when the stimulus is changed. ]{\includegraphics[width = 5.5in]{./Figures/HSH.eps}
+ \label{fig:Sucrose}}
   \subfigure[Change in $\alpha$ and $\mu$ indicating a change of stimulus from HCl to quinine. Although the cell is, overall, less responsive to quinine ($\mu$), the immediate effect of its application is more substantial than in the case of HCl ($\alpha$).]{ \includegraphics[width =
- 5.5in]{./Quinine2HCl.eps}  \label{fig:Quinine}} 
+ 5.5in]{./Figures/Quinine2HCl.eps}  \label{fig:Quinine}}
  \caption{Monitoring the change in spike response of one specific NTS cell. In both
  cases the solid vertical lines indicate where the change in applied chemical stimulus took place.}
  \label{fig:tastants} \end{center} \end{figure}
 
-Although trials were separated by rinsing and a 1.5min wait we only considered the first 10s after the application of each stimulus and, for convenience, subsampled by a factor of 10, and concatenated these 10s batches of each trial together into one spike train. We then created an input spike train representative of the application of each tastant, and found indicative values for the unknown parameters using the offline VB-EM algorithm.  For all experiments we chose to fix $\rho = 0.96, \beta = 0.5$ and $\sigma^2_\epsilon = 0.1$. 
+Although trials were separated by rinsing and a 1.5min wait we only considered the first 10s after the application of each stimulus and, for convenience, subsampled by a factor of 10, and concatenated these 10s batches of each trial together into one spike train. We then created an input spike train representative of the application of each tastant, and found indicative values for the unknown parameters using the offline VB-EM algorithm.  For all experiments we chose to fix $\rho = 0.96, \beta = 0.5$ and $\sigma^2_\epsilon = 0.1$.
 
 From the spike train data, it was evident that the cell's response to sucrose was significantly less active overall than that to HCl, suggesting that by monitoring $\mu$ (background rate) one would be able to detect this change and hence identify the new presented compound. We fixed $\alpha = 5$ and then applied the online VB algorithm to a concatenated data set of spike trains generated in response to the two chemicals. As seen in Fig.~\ref{fig:Sucrose}, the change in $\mu$ on a change of stimulus was very evident. The cell's \emph{immediate} response to quinine was much more substantial than that to HCl and we hence jointly estimated $\alpha$ and $\mu$ from the corresponding concatenated data set. As seen from Fig.\ref{fig:Quinine}, both the change in $\alpha$ and that in $\mu$ was very evident. It is interesting to note that although the overall rate is lower for quinine than for HCl ($\mu$), the immediate stimulus response is larger ($\alpha$). The  behaviour of the immediate response to chemical stimuli is not apparent when using standard techniques which focus on overall firing rate~\cite{Lorenzo_2003}.
 
@@ -500,7 +500,7 @@ signal where speech is not present~\cite{Boll_1979}. We show the filtered state 
 
 \begin{figure}[h] \begin{center}
 %\framebox[4.0in]{$\;$}
- \includegraphics[width = 5in]{./taste_state.eps}  \caption{Estimated state (dashed blue) and
+ \includegraphics[width = 5in]{./Figures/taste_state.eps}  \caption{Estimated state (dashed blue) and
  probability of spike occurring (green) for when NaCl is being applied to the sensory cell every
  10s. Note how the probability is indicative of the frequency of spike events (red).}
  \label{fig:onlinestate} \end{center}

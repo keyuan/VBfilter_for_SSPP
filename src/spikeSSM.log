@@ -1,17 +1,14 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.9.1)  1 SEP 2010 17:53
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=latex 2010.9.1)  1 SEP 2010 19:01
 entering extended mode
-**D:/Engineering*Studies/PhD*Studies/Papers/2010*VBfilter*applied*to*SSPP/Neura
-l*Computation/spikeSSM.tex
-
-("D:/Engineering Studies/PhD Studies/Papers/2010 VBfilter applied to SSPP/Neura
-l Computation/spikeSSM.tex"
+**C:/Git/VBfilter_for_SSPP/src/spikeSSM.tex
+(C:/Git/VBfilter_for_SSPP/src/spikeSSM.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
 ("C:\Program Files\MiKTeX 2.8\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -25,91 +22,6 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\nips10submit_e.sty"
-("C:\Documents and Settings\uos\Application Data\MiKTeX\2.8\tex\latex\eso-pic\e
-so-pic.sty"
-Package: eso-pic 2010/06/08 v2.0b eso-pic (RN)
- ("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
-
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2010/04/08 v1.5 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode not detected.
-))
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Documents and Settings\uos\Application Data\MiKTeX\2.8\tex\latex\xcolor\xc
-olor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
- ("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: dvips.def on input line 225.
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\dvips.def"
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-))
-\nipsrulerbox=\box26
-\nipsrulercount=\count87
-\nipsruleroffset=\dimen103
-\cv@lineheight=\dimen104
-\cv@boxheight=\dimen105
-\cv@tmpbox=\box27
-\cv@refno=\count88
-\cv@tot=\count89
-\cv@tmpc@=\count90
-\cv@tmpc=\count91
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\times.sty"
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\Preamble.tex"
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\epsfig.sty"
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: dvips.def on input line 91.
-)
-\Gin@req@height=\dimen106
-\Gin@req@width=\dimen107
-)
-\epsfxsize=\dimen108
-\epsfysize=\dimen109
-)
-("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -120,58 +32,141 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen110
+\@emptytoks=\toks14
+\ex@=\dimen103
 ))
 ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
+\pmbraise@=\dimen104
 )
 ("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count92
+\inf@bad=\count87
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count93
-\leftroot@=\count94
+\uproot@=\count88
+\leftroot@=\count89
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count95
-\DOTSCASE@=\count96
+\classnum@=\count90
+\DOTSCASE@=\count91
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen112
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
-\dotsspace@=\muskip11
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks16
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks17
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
-\@envbody=\toks18
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks19
+\mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen114
+)
+(C:\Git\VBfilter_for_SSPP\src\natbib.sty
+Package: natbib 1998/07/14 6.8c (PWD)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 467.
+\c@NAT@ctr=\count99
+)
+("C:\Documents and Settings\uos\Application Data\MiKTeX\2.8\tex\latex\rotating\
+rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count100
+\rotFPtop=\skip48
+\rotFPbot=\skip49
+\rot@float@box=\box28
+\rot@mess@toks=\toks20
+)
+("C:\Documents and Settings\uos\Application Data\MiKTeX\2.8\tex\latex\bbm\bbm.s
+ty"
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(C:\Git\VBfilter_for_SSPP\src\Preamble.tex
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
@@ -180,124 +175,319 @@ Package: amssymb 2009/06/22 v3.00
 )
 ("C:\Program Files\MiKTeX 2.8\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup6
-\symboldletters=\mathgroup7
-\symboldsymbols=\mathgroup8
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
 ("C:\Program Files\MiKTeX 2.8\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen119
-\extrarowheight=\dimen120
-\NC@list=\toks20
-\extratabsurround=\skip46
-\backup@length=\skip47
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks21
+\extratabsurround=\skip50
+\backup@length=\skip51
 )
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\subfigure.sty"
+(C:\Git\VBfilter_for_SSPP\src\subfigure.sty
 Package: subfigure 1995/03/06 v2.0 subfigure package
 
 Package: subfigure 1995/03/06 v2.0
-\c@subfigure=\count104
-\c@lofdepth=\count105
-\c@subtable=\count106
-\c@lotdepth=\count107
+\c@subfigure=\count101
+\c@lofdepth=\count102
+\c@subtable=\count103
+\c@lotdepth=\count104
 ) ("C:\Program Files\MiKTeX 2.8\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
-\float@exts=\toks21
-\float@box=\box30
-\@float@everytoks=\toks22
-\@floatcapt=\box31
+\c@float@type=\count105
+\float@exts=\toks22
+\float@box=\box29
+\@float@everytoks=\toks23
+\@floatcapt=\box30
 )
-\@float@every@algorithm=\toks23
-\c@algorithm=\count109
-\c@remarkcounter=\count110
-\c@theorem=\count111
+\@float@every@algorithm=\toks24
+\c@algorithm=\count106
+\c@remarkcounter=\count107
+\c@theorem=\count108
 )
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\spikeSSM.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 20.
+(C:\Git\VBfilter_for_SSPP\src\spikeSSM.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 59.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-\AtBeginShipoutBox=\box32
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+Overfull \hbox (2.28525pt too wide) in paragraph at lines 95--96
+[][] \OT1/ptm/m/n/12 1 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Overfull \hbox (1.23555pt too wide) in paragraph at lines 99--100
+[][]\OT1/ptm/m/n/20.74 Online vari-a-tional in-fer-ence for state-space mod-
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 102.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
 
 ("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 53.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 102.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 103.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
- [1
+Overfull \hbox (1.33867pt too wide) in paragraph at lines 101--107
+\OT1/ptm/b/n/14.4 Andrew Za-m-mit Mangion$[]$, Ke Yuan$[]$, Visakan Kadirkamana
+than$[]$,
+ []
 
-] [2] [3] [4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+
+Package natbib Warning: Citation `Ivanov_1996' on page 1 undefined on input lin
+e 139.
+
+
+Package natbib Warning: Citation `Jolivet_2008' on page 1 undefined on input li
+ne 139.
+
+[1
+
+]
+
+Package natbib Warning: Citation `Smith_2003' on page 2 undefined on input line
+ 142.
+
+
+Package natbib Warning: Citation `Roweis_1999' on page 2 undefined on input lin
+e 147.
+
+
+Package natbib Warning: Citation `Yuan_2010' on page 2 undefined on input line 
+148.
+
+
+Package natbib Warning: Citation `Beal_2003b' on page 2 undefined on input line
+ 153.
+
+
+Package natbib Warning: Citation `Haykin_2001' on page 2 undefined on input lin
+e 157.
+
+
+Package natbib Warning: Citation `Lorenzo_2003' on page 2 undefined on input li
+ne 159.
+
+[2]
+
+Package natbib Warning: Citation `Daley_2003' on page 3 undefined on input line
+ 174.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 3 undefined on input line
+ 183.
+
+
+Package natbib Warning: Citation `Ergun_2007' on page 3 undefined on input line
+ 184.
+
+
+Package natbib Warning: Citation `Beal_2003b' on page 3 undefined on input line
+ 194.
+
+
+Package natbib Warning: Citation `Attias_1999' on page 3 undefined on input lin
+e 197.
+
+[3]
+
+Package natbib Warning: Citation `Beal_2003b' on page 4 undefined on input line
+ 213.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 4 undefined on input line
+ 216.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 4 undefined on input line
+ 221.
+
+[4]
+Overfull \hbox (30.19142pt too wide) in paragraph at lines 258--258
+[] 
+ []
+
+
+Package natbib Warning: Citation `Smith_2003' on page 5 undefined on input line
+ 273.
+
+[5]
+
+Package natbib Warning: Citation `Beal_2003b' on page 6 undefined on input line
+ 301.
+
+[6]
+Overfull \hbox (2.87584pt too wide) in paragraph at lines 318--323
+[][]\OT1/ptm/m/n/12 All ex-pec-ta-tions in the above equa-tions are stan-dard e
+x-cept for $\OMS/cmsy/m/n/12 h[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []x[]\OT1/cm
+r/m/n/12 )\OMS/cmsy/m/n/12 i[]$\OT1/ptm/m/n/12 ,
+ []
+
+
+Package natbib Warning: Citation `Haykin_2001' on page 7 undefined on input lin
+e 331.
+
+[7]
+
+Package natbib Warning: Citation `Smidl_2006b' on page 8 undefined on input lin
+e 352.
+
+
+Package natbib Warning: Citation `Haykin_2001' on page 8 undefined on input lin
+e 382.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 8 undefined on input line
+ 393.
+
+
+Package natbib Warning: Citation `Yuan_2010' on page 8 undefined on input line 
+394.
+
+[8]
+
+Package natbib Warning: Citation `Smith_2003' on page 9 undefined on input line
+ 404.
+
 File: ./Figures/parVB.eps Graphic file (type eps)
-
 <./Figures/parVB.eps>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 362.
 
- ("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omsptm.fd"
+Package natbib Warning: Citation `Smith_2003' on page 9 undefined on input line
+ 426.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 429.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 429.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 362.
- [5] [6]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 429.
+ [9]
+
+Package natbib Warning: Citation `Brown_2002' on page 10 undefined on input lin
+e 445.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 10 undefined on input lin
+e 446.
+
+
+Package natbib Warning: Citation `Barbieri_2005' on page 10 undefined on input 
+line 446.
+
+
+Package natbib Warning: Citation `Riehle_1997' on page 10 undefined on input li
+ne 450.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `Lorenzo_2003' on page 10 undefined on input l
+ine 534.
+
+[10]
 File: ./Figures/HSH.eps Graphic file (type eps)
  <./Figures/HSH.eps>
 File: ./Figures/Quinine2HCl.eps Graphic file (type eps)
  <./Figures/Quinine2HCl.eps>
-Overfull \hbox (2.5pt too wide) in paragraph at lines 480--486
- [][] 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 480--486
- [] 
- []
+Package natbib Warning: Citation `Lorenzo_2003' on page 11 undefined on input l
+ine 558.
 
-[7]
+[11]
+
+Package natbib Warning: Citation `Boll_1979' on page 12 undefined on input line
+ 566.
+
 File: ./Figures/taste_state.eps Graphic file (type eps)
- <./Figures/taste_state.eps>
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\spikeSSM.bbl" [8]) [9]
-("D:\Engineering Studies\PhD Studies\Papers\2010 VBfilter applied to SSPP\Neura
-l Computation\spikeSSM.aux") ) 
-Here is how much of TeX's memory you used:
- 2981 strings out of 495286
- 36537 string characters out of 3180370
- 110344 words of memory out of 3000000
- 6114 multiletter control sequences out of 15000+200000
- 18958 words of font info for 61 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 37i,19n,39p,1248b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+<./Figures/taste_state.eps>
 
-Output written on spikeSSM.dvi (9 pages, 66484 bytes).
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `Smith_2003' on page 12 undefined on input lin
+e 582.
+
+
+Overfull \hbox (2.41948pt too wide) in paragraph at lines 580--591
+[]\OT1/ptm/m/n/12 In this con-tri-bu-tion, we pro-posed a vari-a-tional Bayesia
+n method for fil-ter-ing and smooth-
+ []
+
+[12]
+
+Package natbib Warning: Citation `Quinn_2008' on page 13 undefined on input lin
+e 595.
+
+
+Package natbib Warning: Citation `MacGregor_2009' on page 13 undefined on input
+ line 598.
+
+(C:\Git\VBfilter_for_SSPP\src\spikeSSM.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[13] [14] [15] (C:\Git\VBfilter_for_SSPP\src\spikeSSM.aux) ) 
+Here is how much of TeX's memory you used:
+ 2781 strings out of 495286
+ 33472 string characters out of 3180370
+ 86826 words of memory out of 3000000
+ 5905 multiletter control sequences out of 15000+200000
+ 24689 words of font info for 88 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,19n,32p,1186b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on spikeSSM.dvi (15 pages, 50292 bytes).
