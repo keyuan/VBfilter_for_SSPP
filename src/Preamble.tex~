@@ -1,0 +1,230 @@
+
+\newcommand{\Azero} {\textsl{} A}
+\newcommand{\Bzero} {\textsl{} B_0}
+\newcommand{\Tkk} {{\bf T}_{k-1}}
+\newcommand{\Jk} {{\bf J}_{k}}
+\newcommand{\Ak} {{\bf A}_k}
+\newcommand{\Akplusone} {{\bf A}_{k+1}}
+\newcommand{\Akk} {{\bf A}_{k-1}}
+\newcommand{\Amat} {{\bf A}}
+\newcommand{\Cmat} {{\bf C}}
+\newcommand{\thetab} {{\bm \theta}}
+\newcommand{\chib} {{\bm \chi}}
+\newcommand{\rhob} {{\bm \rho}}
+\newcommand{\thetabj} {{\bm \theta}_j}
+\newcommand{\thetabjj} {{\bm \theta}_{j-1}}
+\newcommand{\thetabk} {{\bm \theta}_k}
+\newcommand{\thetabkk} {{\bm \theta}_{k-1}}
+\newcommand{\thetabkkk} {{\bm \theta}_{k-2}}
+\newcommand{\thetabkkkk} {{\bm \theta}_{k-3}}
+\newcommand{\thetabkkhat} {{\hat{\bm \theta}}_{k-1}}
+\newcommand{\thetabkkkhat} {{\hat{\bm \theta}}_{k-2}}
+\newcommand{\thetabkkkkhat} {{\hat{\bm \theta}}_{k-3}}
+\newcommand{\Thetak} {\Theta_{k}}
+\newcommand{\Thetakk} {\Theta_{k-1}}
+\newcommand{\Thetakkk} {\Theta_{k-2}}
+\newcommand{\phib} {{\bm \phi}}
+\newcommand{\psib} {{\bm \psi}}
+\newcommand{\zetab} {{\bm \zeta}}
+\newcommand{\zetabk} {{\bm \zeta}_k}
+\newcommand{\Phib} {{\bm \Phi}}
+\newcommand{\z} {{\bf z}}
+\newcommand{\un} {{\bf u_n}}
+\newcommand{\s} {{\bf s}}
+\newcommand{\ab} {{\bf a}}
+\newcommand{\aj} {{\bf a}_j}
+\newcommand{\ai} {{\bf a}_i}
+\newcommand{\aik} {{\bf a}_{i,k}}
+\newcommand{\ajk} {{\bf a}_{j,k}}
+\newcommand{\ajzero} {{\bf a}_{j,0}}
+\newcommand{\aikk} {{\bf a}_{i,{k-1}}}
+\newcommand{\ajkk} {{\bf a}_{j,{k-1}}}
+\newcommand{\ajkkk} {{\bf a}_{j,{k-2}}}
+\newcommand{\ajkplusone} {{\bf a}_{j,k+1}}
+\newcommand{\ajkgivenk} {{\bf a}_{j,k|k}}
+\newcommand{\ajkkgivenkk} {{\bf a}_{j,k-1|k-1}}
+\newcommand{\sjk} {{\bf s}_{j,k}}
+\newcommand{\x} {{\bf x}}
+\newcommand{\e} {{\bf e}}
+\newcommand{\w} {{\bf w}}
+\newcommand{\W} {{\bf W}}
+\newcommand{\y} {{\bf y}}
+\newcommand{\q} {{\bf q}}
+\newcommand{\ub} {{\bf u}}
+\newcommand{\Qm} {{\mathcal{Q}}}
+\newcommand{\mub} {{\bm \mu}}
+\newcommand{\mubk} {{\bm \mu_k}}
+\newcommand{\mubkk} {{\bm \mu_{k-1}}}	
+\newcommand{\mubkoff} {{\bm \mu_k'}}
+\newcommand{\mubkkoff} {{\bm \mu_{k-1}'}}
+\newcommand{\mubAkk} {{\bm \mu^A_{k-1}}}
+\newcommand{\mubAkkk} {{\bm \mu^A_{k-2}}}
+\newcommand{\mubAjk} {{\bm \mu^A_{j,k}}}
+\newcommand{\mubAjkk} {{\bm \mu^A_{j,k-1}}}
+\newcommand{\mubAjkkk} {{\bm \mu^A_{j,k-2}}}
+\newcommand{\mubktilde} {\widetilde{\bm \mu_k}}
+\newcommand{\mubthetakk} {{\bm \mu^{\thetab}_{k-1}}}
+\newcommand{\mubthetakkk} {{\bm \mu^{\thetab}_{k-2}}}
+\newcommand{\vv} {{\bm \nu}}
+\newcommand{\vvm} {{\mathcal {\bm \upsilon}}}
+\newcommand{\kappab} {{\mathcal {\bm \kappa}}}
+\newcommand{\alphainv} {\alpha^{-1}}
+\newcommand{\Jcost} {{\mathcal J}}
+\newcommand{\xdot} {{\bf \dot{x}}}
+\newcommand{\Vm} {{\bf \mathcal{V}}}
+\newcommand{\expect} {\mathbb{E}}
+\renewcommand{\Re} {\mathbb{R}}
+\newcommand{\Var} {\mathrm{Var}}
+\newcommand{\N} {\mathcal{N}}
+\newcommand{\Zplus} {\mathbb{Z}^+}
+\newcommand{\ltheta} {{l_\thetab}}
+%\renewcommand{\int} {\int}
+
+\newcommand{\Psixinv} {{\bf \Psi_x^{-1}}}
+\newcommand{\Psix} {{\bf \Psi_x}}
+\newcommand{\Psie} {{\bf \Psi_e}}
+\newcommand{\Psitheta} {{\bf \Psi_\theta}}
+\newcommand{\Sigmawinv} {{\bf \Sigma_w^{-1}}}
+\newcommand{\Sigmaw} {{\bf \Sigma_w}}
+\newcommand{\SigmaA} {{\bf \Sigma_A}}
+\newcommand{\Sigmab} {{\bf \Sigma}}
+\newcommand{\Sigmabk} {{\bf \Sigma_k}}
+\newcommand{\Sigmabktilde} {\widetilde{\bf \Sigma_k}}
+\newcommand{\Sigmakk} { \Sigma_{k-1}}
+\newcommand{\Sigmakkinv} { \Sigma_{k-1}^{-1}}
+\newcommand{\Sigmabkk} {{\bf \Sigma_{k-1}}}
+\newcommand{\Sigmabkkstar} {{\bf \Sigma_{k-1}^*}}
+\newcommand{\Sigmabkinv} {{\bf \Sigma_k^{-1}}}
+\newcommand{\Sigmabkkinv} {{\bf \Sigma_{k-1}^{-1}}}
+\newcommand{\Sigmabkoff} {{\bf \Sigma_k'}}
+\newcommand{\Sigmabkoffinv} {{\bf \Sigma_{k}'^{-1}}}
+\newcommand{\Sigmabkkoff} {{\bf \Sigma_{k-1}'}}
+\newcommand{\Sigmabkkoffinv} {{\bf \Sigma_{k-1}'^{-1}}}
+\newcommand{\Sigmabthetakk} {{\bf \Sigma^{\thetab}_{k-1}}}
+\newcommand{\Sigmabek} {{\bf \Sigma^{e}_{k}}}
+\newcommand{\Sigmabekk} {{\bf \Sigma^{e}_{k-1}}}
+\newcommand{\Sigmabekkk} {{\bf \Sigma^{e}_{k-2}}}
+\newcommand{\Sigmabthetakkinv} {{\bf \Sigma^{\thetab^{-1}}_{k-1}}}
+\newcommand{\Sigmabthetakkkinv} {{\bf \Sigma^{\thetab^{-1}}_{k-2}}}
+\newcommand{\Sigmabthetakkk} {{\bf \Sigma^{\thetab}_{k-2}}}
+\newcommand{\Sigmav} {{\bf \Sigma_v}}
+\newcommand{\betab} {{\bm \beta}}
+\newcommand{\gammab} {{\bm \gamma}}
+
+\newcommand{\A}{{\bf A}}
+\newcommand{\Astar}{{\bf A^*}}
+\newcommand{\Atilde}{{\bf \tilde{A}}}
+\newcommand{\Ahat}{{\bf \hat{A}}}
+\newcommand{\ba}{{\bf a}}
+\newcommand{\B}{{\bf B}}
+\newcommand{\E}{{\bf E}}
+\newcommand{\D}{{\bf D}}
+\newcommand{\F}{{\bf F}}
+\newcommand{\bb}{{\bf b}}
+\newcommand{\f}{{\bf f}}
+\newcommand{\ft}{\tilde{f}}
+\newcommand{\pt}{\tilde{p}}
+\newcommand{\phat}{\hat{p}}
+\newcommand{\h}{{\bf h}}
+\newcommand{\bu}{{\bf u}}
+\newcommand{\ud}{{\bf u_d}}
+\newcommand{\bv}{{\bf v}}
+\newcommand{\zk}{{\bf z_k}}
+\newcommand{\zkk}{{\bf z_{k-1}}}
+\newcommand{\C}{{\bf C}}
+\newcommand{\CA}{{\bf C^A}}
+\newcommand{\Ck}{{\bf C}_k}
+\newcommand{\Ckk}{{\bf C}_{k+1}}
+\newcommand{\I}{{\bf I}}
+\newcommand{\G}{{\bf G}}
+\newcommand{\Sk}{{\bf S}_k}
+\newcommand{\Wk}{{\bf W}_k}
+\newcommand{\Wkk}{{\bf W}_{k-1}}
+\newcommand{\Z}{{\bf Z}}
+\newcommand{\Hk}{{\bf H_k}}
+\newcommand{\Q}{{\bf Q}}
+\newcommand{\Qinv}{{\bf Q}^{-1}}
+\newcommand{\Qdinv}{{\bf Q}^{-2}}
+\newcommand{\R}{{\bf R}}
+\newcommand{\Rinv}{{\bf R}^{-1}}
+\newcommand{\Kk}{{\bf K_k}}
+\newcommand{\Kkplusone}{{\bf K_{k+1}}}
+\newcommand{\Y}{\mathcal{Y}}
+\newcommand{\Yj}{\mathcal{Y}_j}
+\newcommand{\Yk}{\mathcal{Y}_k}
+\newcommand{\Ykk}{\mathcal{Y}_{k-1}}
+\newcommand{\Ykkk}{\mathcal{Y}_{k-2}}
+\newcommand{\X}{\mathcal{X}}
+\newcommand{\Xk}{\mathcal{X}_k}
+\newcommand{\Xkk}{\mathcal{X}_{k-1}}
+\newcommand{\Xkkk}{\mathcal{X}_{k-2}}
+\newcommand{\Xkkkk}{\mathcal{X}_{k-3}}
+\newcommand{\Asetk}{\mathcal{A}_k}
+\newcommand{\Asetkk}{\mathcal{A}_{k-1}}
+\newcommand{\zero}{{\bf 0}}
+\newcommand{\Thetahatkk}{{\hat{\Theta}_{k-1}}}
+\newcommand{\Thetahatkkk}{{\hat{\Theta}_{k-2}}}
+\newcommand{\Thetahatkkkk}{{\hat{\Theta}_{k-3}}}
+
+
+\newcommand{\xstar}{{\bf x^*}}
+\newcommand{\Dx}{{\bf \Delta x}}
+\newcommand{\Dxdot}{{\bf \Delta \dot{x}}}
+\newcommand{\xj}{{\bf x}_j}
+\newcommand{\xjj}{{\bf x}_{j-1}}
+\newcommand{\xk}{{\bf x}_k}
+\newcommand{\xkk}{{\bf x}_{k-1}}
+\newcommand{\xkkk}{{\bf x}_{k-2}}
+\newcommand{\xkkkk}{{\bf x}_{k-3}}
+\newcommand{\ek}{{\bf e}_k}
+\newcommand{\ekk}{{\bf e}_{k-1}}
+\newcommand{\yk}{{\bf y}_k}
+\newcommand{\ykk}{{\bf y}_{k-1}}
+\newcommand{\uk}{{\bf u}_k}
+\newcommand{\wk}{{\bf w}_k}
+\newcommand{\vk}{{\bf v}_k}
+\newcommand{\Pk}{{\bf P}_k}
+\newcommand{\Pkplusone}{{\bf P}_{k+1}}
+\newcommand{\xkplusone}{{\bf x}_{k+1}}
+\newcommand{\xkprev}{{\bf x}_{k-1}}
+
+\newcommand{\wkprev}{{\bf w}_{k-1}}
+\newcommand{\vkprev}{{\bf v}_{k-1}}
+\newcommand{\xhat}{{\bf \hat{x}}}
+\newcommand{\xkhat}{{\bf \hat{x}}_k}
+\newcommand{\xkhatprev}{{\bf \hat{x}}_{k-1}}
+\newcommand{\ekprior}{{\bf e_{k}^-}}
+\newcommand{\ekpriorplusone}{{\bf e}_{k+1}^{-}}
+\newcommand{\Pkprior}{{\bf P_{k}^-}}
+\newcommand{\Pkpriorplusone}{{\bf P}_{k+1}^-}
+\newcommand{\xkhatprior}{{\bf \hat{x}}_k^-}
+\newcommand{\xkhatpriorplusone}{{\bf \hat{x}}_{k+1}^-}
+\newcommand{\xzerohatprior}{{\bf \hat{x}}_0^-}
+\newcommand{\Pzeroprior}{{\bf P}_{0}^-}
+
+\newcommand{\xhatatkgivenk}{{\bf \hat{x}}_{k \mid k}}
+\newcommand{\xhatatkkgivenk}{{\bf \hat{x}}_{k-1 \mid k}}
+\newcommand{\xhatatkkgivenkk}{{\bf \hat{x}}_{k-1 \mid k-1}}
+\newcommand{\xhatatkgivenN}{{\bf \hat{x}}_{k \mid N}}
+\newcommand{\xhatatNgivenN}{{\bf \hat{x}}_{N \mid N}}
+\newcommand{\xhatatkplusNgivenk}{{\bf \hat{x}}_{k + N \mid k}}
+\newcommand{\xhatatkplusonegivenN}{{\bf \hat{x}}_{k + 1 \mid N}}
+\newcommand{\xhatatkplusonegivenk}{{\bf \hat{x}}_{k + 1 \mid k}}
+\newcommand{\Patkgivenk}{{\bf {P}}_{k \mid k}}
+\newcommand{\PatkgivenN}{{\bf {P}}_{k \mid N}}
+\newcommand{\PatNgivenN}{{\bf {P}}_{N \mid N}}
+\newcommand{\PatkplusNgivenk}{{\bf {P}}_{k + N \mid k}}
+\newcommand{\Patkplusonegivenk}{{\bf {P}}_{k + 1 \mid k}}
+\newcommand{\PatkplusonegivenN}{{\bf {P}}_{k + 1 \mid N}}
+
+\newcommand{\ent}{\mathcal{H}}
+\newcommand{\info}{\mathcal{I}}
+
+\newcommand{\obsmodel}{f(\yk | \thetabk,\Ykk)}
+\newcommand{\evolmodel}{f(\thetabk | \thetabkk)}
+\newcommand{\filterdist}{f(\thetabk | \Yk)}
+\newcommand{\predictdist}{f(\thetabk | \Ykk)}
+\newcommand{\smoothdist}{f(\thetabkk | \Yk)}
+
+% \newcounter{algorithm}
+%\addtocounter{algorithm}{1}

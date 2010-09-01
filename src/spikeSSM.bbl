@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Ivanov_1996}
+P.~Ivanov, M.~Rosenblum, C.~Peng, J.~Mietus, S.~Havlin, H.~Stanley, and
+  A.~Goldberger, ``Scaling behaviour of heartbeat intervals obtained by
+  wavelet-based time-series analysis,'' \emph{Nature}, vol. 383, pp. 323--327,
+  1996.
+
+\bibitem{Jolivet_2008}
+R.~Jolivet, R.~Kobayashi, A.~Rauch, R.~Naud, S.~Shinomoto, and W.~Gerstner, ``A
+  benchmark test for a quantitative assessment of simple neuron models,''
+  \emph{Journal of Neuroscience Methods}, vol. 169, pp. 417--424, 2008.
+
+\bibitem{Smith_2003}
+A.~Smith and E.~Brown, ``{Estimating a state-space model from point process
+  observations},'' \emph{Neural Computation}, vol.~15, no.~5, pp. 965--991,
+  2003.
+
+\bibitem{Roweis_1999}
+S.~Roweis and Z.~Ghahramani, ``A unifying review of linear {G}aussian models,''
+  \emph{Neural Computation}, vol.~11, pp. 305--345, 1999.
+
+\bibitem{Yuan_2010}
+K.~Yuan and M.~Niranjan, ``Estimating a state-space model from point process
+  observations: {A} note on convergence,'' \emph{Neural computation,
+  doi:10.1162/089976603765202622}, 2010.
+
+\bibitem{Beal_2003b}
+M.~J. Beal, ``Variational algorithms for approximate {Bayesian} inference,''
+  Ph.D. dissertation, University College London, London, UK, 2003.
+
+\bibitem{Haykin_2001}
+E.~A. Wan and A.~T. Nelson, ``Dual extended {K}alman filter methods,'' in
+  \emph{Kalman Filtering and Neural Networks}, S.~Haykin, Ed.\hskip 1em plus
+  0.5em minus 0.4em\relax New York, USA: John Wiley \& Sons, Inc., Oct. 2001,
+  pp. 123--173.
+
+\bibitem{Lorenzo_2003}
+P.~M. {Di Lorenzo} and J.~D. Victor, ``Taste response variability and temporal
+  coding in the nucleus of the solitary tract of the rat,'' \emph{Journal of
+  Neurophysiology}, vol.~90, pp. 1418--1431, 2003.
+
+\bibitem{Daley_2003}
+D.~Daley and D.~Vere-Jones, \emph{An Introduction to the Theory of Point
+  Process,}, 2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax New York: Springer
+  Verlag, 2003.
+
+\bibitem{Ergun_2007}
+A.~Erg{\"u}n, R.~Barbieri, U.~T. Eden, M.~A. Wilson, and E.~N. Brown,
+  ``Construction of point process adaptive filter algorithms for neural systems
+  using sequential {M}onte {C}arlo methods,'' \emph{IEEE Transactions on
+  Biomedical Engineering}, vol.~54, no.~3, pp. 419--428, Mar 2007.
+
+\bibitem{Attias_1999}
+H.~Attias, ``Inferring parameters and structure of latent variable models by
+  variational {Bayes},'' in \emph{Proceedings of the Fifteenth Conference on
+  Uncertainty in Artificial Intelligence}, 1999, pp. 21--30.
+
+\bibitem{Smidl_2006b}
+V.~\v{S}m\'{i}dl and A.~Quinn, ``{The restricted variational Bayes
+  approximation in Bayesian filtering},'' in \emph{{Proceedings of the IEEE
+  Nonlinear Statistical Signal Processing Workshop}}, {2006}, pp. {224--227}.
+
+\bibitem{Brown_2002}
+E.~N. Brown, R.~Barbieri, V.~Ventura, R.~E. Kass, and L.~M. Frank, ``The
+  time-rescaling theorem and its application to neural spike train data
+  analysis,'' \emph{Neural Computation}, vol.~14, no.~14, pp. 325--346, Feb.
+  2002.
+
+\bibitem{Barbieri_2005}
+R.~Barbieri, E.~C. Matten, A.~A. Alabi, and E.~N. Brown, ``A point-process
+  model of human heartbeat intervals: {n}ew definitions of heart rate and heart
+  rate variability,'' \emph{AJP - Heart and Circulatory Physiology}, vol. 288,
+  pp. 424--435, Jan 2005.
+
+\bibitem{Riehle_1997}
+A.~Riehle, S.~Gr{\"u}n, M.~Diesmann, and A.~Aertsen, ``Spike synchronization
+  and rate modulation differentially involved in motor cortical function,''
+  \emph{Science}, vol. 278, pp. 1950--1953, 1997.
+
+\bibitem{Boll_1979}
+S.~F. Boll, ``Suppression of acoustic noise in speech using spectral
+  subtraction,'' \emph{IEEE Transactions on Acoustics, Speech and Signal
+  Processing}, vol.~27, no.~2, pp. 113--120, Apr. 1979.
+
+\bibitem{Quinn_2008}
+J.~A. Quinn, C.~K. Williams, and N.~McIntosh, ``Factorial switching linear
+  dynamical systems applied to physiological condition monitoring,''
+  \emph{Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  vol.~31, no.~9, pp. 1537--1551, 2008.
+
+\bibitem{MacGregor_2009}
+D.~MacGregor, C.~Williams, and G.~Leng., ``A new method of spike modelling and
+  interval analysis,'' \emph{Journal of Neuroscience Methods}, vol. 176, no.~1,
+  pp. 45--56, 2009.
+
+\end{thebibliography}
