@@ -1,0 +1,18 @@
+
+NOT DONE
+--------
+1. Add some basic SSPP theory as in Smith and Brown's work
+
+2. Incoroporate supplementary material - in other words put in all the derivation of the VB filter.
+
+3. Confirm in some way the model estimation on real data. We can do this by either
+   a. Developing a marginalised PF OR
+   b. Do KS tests of results
+If the KS results do not come out that good we will opt  for the marginalised PF which will, more likely than not, corroborate the results of the VB filter.
+
+4. Spend some time to try find more real data. Two applications will look better than one.
+
+
+DONE 
+----
+5. I will organise a Git repo and put everything on it. It is a great way to share and for people to jointly write a work without having several versions running around. We will also put up the code for the same reason.
